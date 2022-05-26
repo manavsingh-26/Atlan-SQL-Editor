@@ -1,5 +1,5 @@
 # :computer: Atlan Frontend Task: SQL Editor
-<strong> Link to the application: [https://atlan-mysql-editor.netlify.app/]</strong>
+<strong> Link to the application: https://atlan-mysql-editor.netlify.app/</strong>
 <br>
 
 ## Introduction
