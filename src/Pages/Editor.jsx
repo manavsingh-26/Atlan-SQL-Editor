@@ -20,14 +20,16 @@ const Editor = () => {
     );
 
     return (
-        <div className='App-Editor'>
+        <div >
             <MainContext.Provider value={contextValue}>
-                <div className='content'>
+                <div>
                     <div className='row'>
                         <div className='col-md-3'>
+                            {/*-----------------------------------------------------------------SideBar----------------------------------------------------------------------- */}
                             <Sidebar />
                         </div>
                         <div className='col-md-9 col-12 editor-area'>
+                            {/* --------------------------------------------------------------Text Editor + Output---------------------------------------------------------- */}
                             <Terminal />
                             <Result />
                         </div>

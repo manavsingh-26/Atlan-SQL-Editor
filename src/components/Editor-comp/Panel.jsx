@@ -13,33 +13,39 @@ const Panel = () => {
 
     const { query, setAllQueries, setQuery } = useContext(MainContext);
 
+    //------------------------------------------------------------------Function for RUN bttn
     const runQuery = () => {
 
-
+        //if the editor is empty
         if (query.trim() === "") {
             alert(
                 "Oops, that was a Null Query. Please type another query, or select from the ones previously saved."
             );
             return;
         }
+        //1st query
         if (query.trim() === "SELECT * FROM customers;") {
             setAllQueries((prev) => ({
                 ...prev,
                 outputData: queryData,
             }));
         }
+        //2nd Query
         else if (query.trim() === "SELECT companyName, contactName, city, country FROM customers;") {
             setAllQueries((prev) => ({
                 ...prev,
                 outputData: queryData2,
             }));
         }
+
+        //3rd Query
         else if (query.trim() === "SELECT * FROM territories") {
             setAllQueries((prev) => ({
                 ...prev,
                 outputData: queryData3,
             }))
         }
+        //Inavlid Query:
         else {
             alert("Please try the test query.");
         }
@@ -49,6 +55,7 @@ const Panel = () => {
         }));
     };
 
+    //------------------------------------------------------------------Function for SAVE bttn
     const saveQuery = () => {
 
 
@@ -62,7 +69,7 @@ const Panel = () => {
             saved: [...prev.saved, query.trim()],
         }));
     };
-
+    //------------------------------------------------------------------Function for CLEAR bttn
     const clearQuery = () => {
         setQuery("");
     };
@@ -71,16 +78,19 @@ const Panel = () => {
         <div className='panel'>
             <div className='btn primary-btn'>
                 <button onClick={() => runQuery()} >
+                    {/*---------------------------------- Run button------------------------------------- */}
                     <BsPlay /> Run
                 </button>
             </div>
             <div className='btn secondary-btn'>
                 <button onClick={() => saveQuery()}>
+                    {/*---------------------------------- Save button------------------------------------- */}
                     <FiSave /> Save
                 </button>
             </div>
             <div className='btn alert-btn'>
                 <button onClick={() => clearQuery()} >
+                    {/*---------------------------------- Clear button------------------------------------- */}
                     <AiOutlineDelete /> Clear
                 </button>
             </div>

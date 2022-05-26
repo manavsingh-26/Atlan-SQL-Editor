@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className='gitlogodiv'>
-        <a href='https://github.com/manavsingh-26'><BsGithub className='gitlogo' /></a>
+        <a href='https://github.com/manavsingh-26/Atlan-SQL-Editor'><BsGithub className='gitlogo' /></a>
       </div>
 
 

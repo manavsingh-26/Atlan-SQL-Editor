@@ -1,3 +1,6 @@
+
+
+//Getting all the data from the array
 const getTableRowsFromData = (arr) => {
   const keys = Object.keys(arr[0]);
   return arr.map((col) => {
@@ -11,6 +14,7 @@ const getTableRowsFromData = (arr) => {
   });
 };
 
+//Getting Column Names from the array
 const getTableHeadFromData = (arr) => {
   const keys = Object.keys(arr[0]);
   return (
@@ -22,15 +26,6 @@ const getTableHeadFromData = (arr) => {
   );
 };
 
-const getTableColumns = (arr) => {
-  const keys = Object.keys(arr[0]);
-  return keys.map((col) => {
-    return (
-      <tr>
-        <td>{col}</td>
-      </tr>
-    );
-  });
-};
 
-export { getTableRowsFromData, getTableHeadFromData, getTableColumns };
+
+export { getTableRowsFromData, getTableHeadFromData };

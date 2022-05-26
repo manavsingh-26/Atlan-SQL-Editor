@@ -5,10 +5,11 @@ import '../../Pages/editor.css'
 const Query = () => {
 
     const { setQuery, AllQueries } = useContext(MainContext);
-    const [list, setList] = useState(AllQueries['saved']);
+    const [list, setList] = useState(AllQueries['saved']); //Array of all the saved queries
 
     //  console.log(list)
 
+    //To traverse Array of all the queries :
     const ListofQueries = (arr) => {
 
         return arr.map((query, i) => {
@@ -20,7 +21,7 @@ const Query = () => {
         })
 
     }
-
+    //-------------------------------------------------------------------------------------
 
     useEffect(() => {
         setList(AllQueries['saved']);

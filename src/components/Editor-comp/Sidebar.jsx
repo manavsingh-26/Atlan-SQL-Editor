@@ -6,7 +6,7 @@ import Query from './Query'
 
 const Sidebar = () => {
 
-    const { AllQueries } = useContext(MainContext);
+    const { AllQueries } = useContext(MainContext); //Extracting all the saved queries from context
 
     // console.log(AllQueries)
 
@@ -17,7 +17,7 @@ const Sidebar = () => {
                     <BsCloudFog2Fill color='white' />
                     <span className='text'> Select your Query!!</span>
                 </h5>
-
+                {/*--------------------------------------------- All the saved Queries-------------------------------------------------------------------- */}
                 {AllQueries && <Query />}
 
 

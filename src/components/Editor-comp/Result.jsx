@@ -19,6 +19,7 @@ const Result = () => {
                             className={"tabs active"}
 
                         >
+                            {/*----------------------------------------------------------- Output Heading -----------------------------------------*/}
                             Output
                         </span>
 
@@ -26,6 +27,7 @@ const Result = () => {
                     <div className='query-details'>
                         <p className='text-2'>
                             <span>
+                                {/* Length of the result table */}
                                 {AllQueries.outputData.length}
                             </span>{" "}
                             rows in Set
@@ -36,15 +38,17 @@ const Result = () => {
                         </p>
 
                     </div>
-
+                    {/*--------------------------------------- All result-----------------------  */}
                     <Table result={AllQueries.outputData}></Table>
 
                 </>
             ) : (
+
                 <div className='placeholder-text'>
                     <span className='fa fa-play'></span>
                     <p>Your Output......</p>
                 </div>
+                /*When there is no output to show */
             )}
         </div>
     );
