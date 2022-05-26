@@ -5,7 +5,7 @@
 ## Introduction
 
 The given application is developed as a task for Atlan. It enables users to run SQL queries in an online editor.
-It is made using https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+It is made using <img src= https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB />
 
 ## Data 
 Data used in the application is obtained from https://github.com/graphql-compose/graphql-compose-examples/tree/master/examples/northwind/data/csv which was provided in the problem statement given by Atlan.
