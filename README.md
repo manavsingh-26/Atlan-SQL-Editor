@@ -16,7 +16,7 @@ For all the optimal analysis, I have used Google's Lighthouse tool to analysze t
 Minimal dependencies have been used for the creation of the Web App. <br>
 I have restructured code to reuse functional components & used minimal imports where necessary.
 
-##ScreenShots:
+## ScreenShots:
 
 ![image](https://user-images.githubusercontent.com/54039581/170552418-1eb68835-00c7-4585-80d3-67b96e198fb9.png)
 
