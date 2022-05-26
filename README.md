@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# :computer: Atlan Frontend Task: SQL Editor
+<strong> Link to the application: https://atlan-mysql-editor.netlify.app/</strong>
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+The given application is developed as a task for Atlan. It enables users to run SQL queries on an online text editor.
+<br> The Application  is made using : <img src= "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" /> <img src ="https://cdn.icon-icons.com/icons2/2699/PNG/512/codemirror_logo_icon_169361.png" />
 
-In the project directory, you can run:
+## Data 
+Data used in the application is obtained from https://github.com/graphql-compose/graphql-compose-examples/tree/master/examples/northwind/data/csv which was provided in the problem statement given by Atlan.
+<br>The data is downloaded and stored as local JSON object.
 
-### `npm start`
+## Page Load Time:
+For all the optimal analysis, I have used Google's Lighthouse tool to analysze the page load time, along with how well it performs as per web standards. I have also used GTMetrix for further analysis. <br>
+Minimal dependencies have been used for the creation of the Web App. <br>
+I have restructured code to reuse functional components & used minimal imports where necessary. <br>
+### <strong> The WebPage loading time for both the pages (home, editor) came out to be 0.5s </strong>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ScreenShots:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://user-images.githubusercontent.com/54039581/170552418-1eb68835-00c7-4585-80d3-67b96e198fb9.png)
 
-### `npm test`
+![image](https://user-images.githubusercontent.com/54039581/170552495-4e0e23a8-f2db-400f-ac1b-06fb60cc3f53.png)
+![image](https://user-images.githubusercontent.com/54039581/170552569-6ed8243e-af44-41ab-bf5c-572dec7722f4.png)
+![image](https://user-images.githubusercontent.com/54039581/170552676-07651c95-8ed9-48b6-adfa-a86e9432d97c.png)
+![image](https://user-images.githubusercontent.com/54039581/170552790-a75871f7-e2c8-4f21-abc9-8680b38da50f.png)
+### Google Lighthouse :
+![image](https://user-images.githubusercontent.com/54039581/170553165-a5f3a82f-f9f2-479f-b42c-a5cf3ea732eb.png)
+![image](https://user-images.githubusercontent.com/54039581/170553824-44a0f100-1cf5-4195-b592-6963b2b7ae64.png)
+### GtMetrix analysis:
+![image](https://user-images.githubusercontent.com/54039581/170554128-adbdf20b-4d89-46c0-aa67-84d2cbb03123.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
