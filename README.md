@@ -5,7 +5,7 @@
 ## Introduction
 
 The given application is developed as a task for Atlan. It enables users to run SQL queries in an online editor.
-<br> The Application  is made using : <img src= "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
+<br> The Application  is made using : <img src= "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" /> and codemirror <img src ="https://cdn.icon-icons.com/icons2/2699/PNG/512/codemirror_logo_icon_169361.png" /> (npm package)
 
 ## Data 
 Data used in the application is obtained from https://github.com/graphql-compose/graphql-compose-examples/tree/master/examples/northwind/data/csv which was provided in the problem statement given by Atlan.
