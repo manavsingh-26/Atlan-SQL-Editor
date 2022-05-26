@@ -1,0 +1,79 @@
+nav {
+  margin: 0;
+  height: 10vh;
+  width: auto;
+  background-color: #372f2f;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.underline {
+  position: relative;
+  bottom: -0.1rem;
+  width: 0%;
+
+  height: 0.12rem;
+  background-color: white;
+  transition: all 0.5s;
+}
+
+.sql {
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-left: 5vw;
+  margin-right: 10vw;
+  align-items: center;
+}
+
+.sql h1 {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 5rem;
+  font-size: 2rem;
+
+  margin-top: 0;
+}
+
+.routes {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.routes p {
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0 3vw;
+  line-height: 1rem;
+  color: white;
+  font-size: larger;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.routes p:hover {
+  color: bisque;
+}
+
+.routes p:hover .underline {
+  width: 100%;
+}
+.gitlogo {
+  cursor: pointer;
+  margin-top: 10px;
+  float: right;
+  color: white;
+  height: 6vh;
+  width: 6vh;
+}
+
+.gitlogodiv {
+  margin-left: 15vw;
+  align-items: center;
+  float: right;
+}
+
+.menu-icon {
+  width: 0;
+  height: 0;
+}
