@@ -14,7 +14,7 @@ Data used in the application is obtained from https://github.com/graphql-compose
 ## Page Load Time:
 For all the optimal analysis, I have used Google's Lighthouse tool to analysze the page load time, along with how well it performs as per web standards. I have also used GTMetrix for further analysis. <br>
 Minimal dependencies have been used for the creation of the Web App. <br>
-I have restructured code to reuse functional components & used minimal imports where necessary.
+I have restructured code to reuse functional components & used minimal imports where necessary. <br>
 <strong> The WebPage loading time for both the pages (home, editor) came out to be 0.5s </strong>
 
 ## ScreenShots:
