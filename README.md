@@ -4,7 +4,7 @@
 
 ## Introduction
 
-The given application is developed as a task for Atlan. It enables users to run SQL queries in an online editor.
+The given application is developed as a task for Atlan. It enables users to run SQL queries on an online text editor.
 <br> The Application  is made using : <img src= "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" /> <img src ="https://cdn.icon-icons.com/icons2/2699/PNG/512/codemirror_logo_icon_169361.png" />
 
 ## Data 
